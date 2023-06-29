@@ -2,8 +2,6 @@ import PropTypes from 'prop-types';
 import { Button, Container } from './FeedbackOptions.styled';
 
 export function FeedbackOptions({ options, onLeaveFeedback }) {
-  //?   console.log(typeof options); ==> object, map doesn't work
-
   return (
     <Container>
       {options.map(name => (
